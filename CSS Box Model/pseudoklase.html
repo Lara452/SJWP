@@ -5,43 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo klase</title>
     <style>
-        div :hover{
+       .prvi{
             position: absolute;
             width: 200px;
             height: 200px;
             background-color: crimson;
-            transform: rotate(90 deg);
-            transform-origin: top left;
+            
              
            
             
         }
-        .drugi :hover{
+        .prvi :hover{
+            transform: rotate(90 deg);
+            transform-origin: top left;
+        }
+        .drugi {
             position:absolute;
             width: 200px;
             height: 200px;
             background-color: blue;
-            
+        }
+        .drugi :hover{
             transform: rotate(90 deg);
+            transform-origin: top left;
         }
 
-        .treci :hover{
+        .treci {
             position: absolute;
             width: 200px;
             height: 200px;
             background-color: yellow;
-            transform: rotate(90 deg);
-            transform-origin: top right;
-        
+            
           
         }
-        .cetvrti :hover{
+        .treci :hover{
+            transform: rotate(90 deg);
+            transform-origin: bottom left;
+        }
+        .cetvrti {
             position: absolute;
             width: 200px;
             height: 200px;
+            top: 207px;
+            left: 400px;
             background-color: green;
+            transform: 1s;
+        }
+        .cetvrti :hover{
             transform: rotate(90 deg);
-            transform-origin: ;
+            transform-origin: bottom left;
         }
         
     </style>
