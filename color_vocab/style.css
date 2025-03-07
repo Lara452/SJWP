@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #red {
     color:red;
 
@@ -30,3 +31,62 @@ img{
     width: 200px;
     height: 200px;
 }
+=======
+h1{
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+h2{
+    font-family: "Roboto",serif;
+    color: #4caf50;
+
+}
+h3{
+    font-family: "Roboto",serif;
+}
+p{
+    font-family: "Open Sans",serif;
+
+}
+ul{
+    font-family: "Open Sans",serif;
+}
+body{
+    background-color: beige;
+}
+.p1{
+    font-size: 16px;
+    color: #37474f;;
+
+}
+.p2{
+    font-size: 18px;
+    color: #546E7A;
+
+}
+.p3{
+    font-size: 20px;
+    color: #78909c;
+}
+.l1{
+    list-style-type:circle;
+
+}
+.li2{
+    list-style-type: lower-roman;
+}
+.li3{
+    list-style-type: upper-roman
+    ;}
+    .li4{
+        list-style-type: lower-alpha;
+    }
+    .hgh{
+        color: #ffc107;
+    }
+    #main-title{
+        font-size: 4rem;
+    }
+>>>>>>> 898d9664a5edc2e2fae832dfe37c97d9c02a4822
