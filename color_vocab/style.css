@@ -1,3 +1,41 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0df29a7dc578b6dd5dbd1d658b3475b3ef7bf434
+#red {
+    color:red;
+
+}
+
+#blue{
+    color:blue;
+
+}
+
+#orange{
+    color: orange;
+
+
+}
+#green{
+color: green;
+
+}
+
+#yellow{
+color: yellow;
+
+}
+
+.color-title{
+    font-weight: normal;
+}
+img{
+    width: 200px;
+    height: 200px;
+<<<<<<< HEAD
+}
+=======
 h1{
     font-family: "Roboto", serif;
     font-weight: 600;
@@ -55,3 +93,7 @@ body{
     #main-title{
         font-size: 4rem;
     }
+>>>>>>> 898d9664a5edc2e2fae832dfe37c97d9c02a4822
+=======
+}
+>>>>>>> 0df29a7dc578b6dd5dbd1d658b3475b3ef7bf434
