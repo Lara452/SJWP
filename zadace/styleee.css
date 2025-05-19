@@ -1,0 +1,137 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff0f5; /* svijetlo roza pozadina */
+  color: #4a0033; /* tamno roza tekst */
+}
+
+header {
+  background: #ff66b2; /* srednje roza */
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+}
+
+.ikona img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 3px solid #ff99cc;
+}
+
+.tekst {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ime h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #cc0066;
+}
+
+.opis {
+  font-style: italic;
+  color: #b30059;
+}
+
+.kontakt p,
+.mreze {
+  font-size: 1rem;
+}
+
+a {
+  color: #cc3399;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.about,
+.contact {
+  padding: 40px;
+}
+
+.about h2,
+.contact h2 {
+  color: #cc0066;
+  margin-bottom: 10px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ffb3d9;
+  border-radius: 5px;
+  background-color: #fffafd;
+}
+
+button {
+  padding: 10px;
+  background: #ff66b2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #e0559f;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tekst {
+    align-items: center;
+  }
+
+  .ikona img {
+    margin-bottom: 20px;
+  }
+}
